@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <title>Weight Converter</title>
+
+    <style>
+    body{
+        background: rgb(133, 127, 121)
+    }
+    .card-panel{
+        color: white;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div style="margin-top: 20px;" class="col s6 offset-m3">
+                <h3 class="grey-text center-align"><b>Weight Converter</b></h3>
+                <form>
+                    <input placeholder="Enter lbs" type="number" class="input-field">
+                </form>
+                <div class="output">
+                <div class="card-panel teal">
+                    <h5>Grams:</h5>
+                    <span id="g"></span>
+                </div>
+                <div class="card-panel orange">
+                    <h5>Kilograms:</h5>
+                    <span id="kg"></span>
+                </div>
+                <div class="card-panel yellow">
+                    <h5>Ounce:</h5>
+                    <span id="oz"></span>
+                </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+<!-- script-->
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
